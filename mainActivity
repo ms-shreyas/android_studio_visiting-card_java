@@ -1,0 +1,28 @@
+package com.saysarmy.card;
+
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import de.hdodenhof.circleimageview.CircleImageView;
+
+public class MainActivity extends AppCompatActivity {
+    TextView Text1, text2, text3, text4, text5;
+    ImageView cv;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Text1 = findViewById(R.id.txt1);
+        text2 = findViewById(R.id.txt2);
+        text3 = findViewById(R.id.txt3);
+        text4 = findViewById(R.id.txt4);
+        text5 = findViewById(R.id.txt5);
+        cv = findViewById(R.id.image);
+
+    }
+}
